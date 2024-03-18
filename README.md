@@ -53,21 +53,10 @@ Player X, enter a number: 1
 ...
 ```
 
-## Running the Tests
-
-To run the automated tests for this system, simply execute the `test_tic_tac_toe.py` file:
-
-```bash
-$ python test_tic_tac_toe.py
-```
 
 ## Built With
 
 - Python
-
-## Authors
-
-- [Inuk Baik](https://github.com/inukbaik)
 
 ## License
 
