@@ -1,19 +1,11 @@
-board = [["1", "2", "3"],
-             ["4", "5", "6"],
-             ["7", "8", "9"]]
-
-
-def intro():
+def intro(board):
     print("Welcome to Tic Tac Toe!")
-    print("The board is set up like this:")
-    print_board(board)
     print("Player 1 is X and Player 2 is O. Let's play!")
 
 
 def print_board(board):
-# This function prints the board nice!
+    # This function prints the board nice
     rows = len(board)
-    cols = len(board)
     print("---+---+---")
     for r in range(rows):
         print(f' {board[r][0]} | {board[r][1]} | {board[r][2]} ')
@@ -58,7 +50,7 @@ def main():
              ["4", "5", "6"],
              ["7", "8", "9"]]
 
-    intro()
+    intro(board)
     player = "X"
     for i in range(9):
         print_board(board)
